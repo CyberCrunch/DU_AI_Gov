@@ -1,0 +1,30 @@
+{
+    "testuser1": [
+        "Human",
+        "Miner",
+        "idle",
+        "unknownPos",
+        9044
+    ],
+    "SectorC8": [
+        "Location",
+        "Alioth",
+        "MilitaryOutpost",
+        "42",
+        "13"
+    ],
+    "SectorA3": [
+        "Location",
+        "Alioth",
+        "MiningFacility",
+        "13",
+        "42"
+    ],
+    "CyberCrunch": [
+        "Human",
+        "Builder",
+        "idle",
+        "unknownPos",
+        95
+    ]
+}
