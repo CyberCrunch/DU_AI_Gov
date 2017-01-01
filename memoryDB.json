@@ -1,4 +1,55 @@
 {
+    "CyberCrunch": [
+        "Human",
+        "Builder",
+        "idle",
+        "unknownPos",
+        995
+    ],
+    "Kurock": [
+        "Human",
+        "Janitor",
+        "idle",
+        "unknownPos",
+        0
+    ],
+    "SectorA3": [
+        "Location",
+        "Alioth",
+        "MiningFacility",
+        "13",
+        "42"
+    ],
+    "cityone": [
+        "Location",
+        "Ailoth",
+        "city",
+        "98",
+        "93",
+        "900",
+        0
+    ],
+    "testuser2": [
+        "Human",
+        "Miner",
+        "idle",
+        "unknownPos",
+        900
+    ],
+    "warden": [
+        "Human",
+        "Miner",
+        "idle",
+        "unknownPos",
+        1591
+    ],
+    "DemoUser": [
+        "Human",
+        "Miner",
+        "idle",
+        "unknownPos",
+        475
+    ],
     "testuser1": [
         "Human",
         "Miner",
@@ -12,19 +63,5 @@
         "MilitaryOutpost",
         "42",
         "13"
-    ],
-    "SectorA3": [
-        "Location",
-        "Alioth",
-        "MiningFacility",
-        "13",
-        "42"
-    ],
-    "CyberCrunch": [
-        "Human",
-        "Builder",
-        "idle",
-        "unknownPos",
-        95
     ]
 }

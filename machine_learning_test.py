@@ -8,7 +8,7 @@ Created on Wed Dec 21 14:34:23 2016
 import tensorflow as tf
 import numpy as np
 
-def tensorflow_test():
+def tensorflow_test(): #placeholder (sample project)
     
     # Create 100 phony x, y data points in NumPy, y = x * 0.1 + 0.3
     x_data = np.random.rand(100).astype(np.float32)
