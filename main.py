@@ -2,24 +2,31 @@
 #-*- coding: utf-8 -*-
 
 """
-(pre alpha tech demo) AI Government of for Dual Universe organizations.
- Using Discord to communicate with the organization members.
-Version: 0.02
+AI Government for Dual Universe organizations.
+ The purpose of this program is to assist DU-players by calculating
+ governmental decisions based on the current situation in the game.
+ To communicate with the organization members communication
+ platforms (like Discord/TS3) are used.
+Version: 0.03 (tech demo)
 (based on Dumb-bot by sleibrock)
 
-Setup:
+Setup Discord:
     create Discord ChatBot
     create Server.key file, with Discord Token
     install MongoDB (only for chatterbot usage)
-    train chatterbot
-    
-TIPP: to install missing modules, go to IPython and type: !pip install xy
+    train chatterbot    
+Setup Team Speak:
+    (sometimes not supportet by soundcard) open audio settings
+        setup virtual mic to take audio output as an input signal
+    open dedicated TS3 client
+    start TeamspeakBot
 """
 
-import DiscordBot
-import EnjinBot
-
+from py_bots import DiscordBot
+from py_bots import EnjinBot
+from py_bots import TeamspeakBot
 
 if __name__ == "__main__":
+    #TeamspeakBot.setupTS()
     EnjinBot.setupEnjin()
     DiscordBot.setupDiscord()
